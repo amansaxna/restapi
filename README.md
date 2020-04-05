@@ -1,6 +1,10 @@
 # REST API  
 ### Consuming a RESTful Web Service with AJAX-Bootstraping
-A basic WEB UI frontend for an application created for #1 using ###Bootstrap framework. Using AJAX methods to create, show and delete records from the UI : 
+A basic WEB UI frontend for an application created using 
+### Bootstrap framework.
+Using 
+### AJAX methods 
+to create, show and delete records from the UI : 
 	![GitHub site_home](src/images/site_home.png)
 
 * #### @GET servers :-
@@ -18,13 +22,13 @@ A basic WEB UI frontend for an application created for #1 using ###Bootstrap fra
 		}
 ```
 ![GitHub get_all](src/images/get_all.png)
-![GitHub getbyid](src/images/getbyid.png)
+	 ![GitHub getbyid](src/images/getbyid.png)
 
 
 * #### @DELETE a server:-<br />
 	 The parameter is a server ID. 
 
-	![GitHub deletebyid](src/images/deletebyid.png)
+	 ![GitHub deletebyid](src/images/deletebyid.png)
 
 * #### @POST a server :-
 	 The server object is passed as a json-encoded message body.
@@ -34,3 +38,5 @@ A basic WEB UI frontend for an application created for #1 using ###Bootstrap fra
 	 The parameter is a string. Must check if a server name contains this string and return one or more servers found. Return 404 if nothing is found.
 
 	 ![GitHub post](src/images/post.png)
+
+
