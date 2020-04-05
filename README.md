@@ -17,13 +17,13 @@ An application in java which provides a REST API with endpoints for searching, c
 		   	“framework”:”django” 
 		}
 ```
-		 ![GitHub site_insert](src/images/site_insert.png)
+![GitHub site_insert](src/images/site_insert.png)
 
 
 * #### @DELETE a server:-<br />
 	 The parameter is a server ID. 
 
-	  ![GitHub deletebyid](src/images/deletebyid.png)
+![GitHub deletebyid](src/images/deletebyid.png)
 
 * #### @POST a server :-
 	 The server object is passed as a json-encoded message body.
